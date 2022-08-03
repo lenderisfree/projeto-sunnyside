@@ -390,6 +390,7 @@ footer{
 
     .main__box_one{
         grid-template-columns: 1fr;
+        justify-items: center;
     }
     
     .weare__text{
@@ -398,7 +399,6 @@ footer{
 
     .white__box, h2, p{
         text-align: center;
-
     }
 
     hr.separacao_dois,.separacao_um{
@@ -435,7 +435,7 @@ footer{
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 620px){
     .gallery__container div{
         margin-top: 0px;
         height: 390px;
@@ -446,6 +446,7 @@ footer{
     .main__box_one div{
         width: 390px;
         height: 390px;
+       
 
     }
 
