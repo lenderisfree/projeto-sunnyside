@@ -391,15 +391,11 @@ footer{
     .main__box_one{
         grid-template-columns: 1fr;
         justify-items: center;
-        grid-templatr-rows: 500px;
+      
     }
     
     .weare__text{
         display: ;
-    }
-
-    .white__box{
-         width: 380px;
     }
 
     .white__box, h2, p{
