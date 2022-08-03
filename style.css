@@ -442,6 +442,9 @@ footer{
         width: 390px;
     
     }
+    .end_footer{
+        font-size: smaller;
+    }
 
     .main__box_one div{
         width: 390px;
