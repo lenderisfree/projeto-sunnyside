@@ -168,7 +168,6 @@ a.contact__efect{
     height: 450px;
 }
 
-
 .separacao_um{    
     width: 26%;
     position: relative;
@@ -367,22 +366,7 @@ footer{
 }
 
 @media (max-width: 816px){
-   
-
-    .menu__nav{
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 20px;
-        margin: 0px;
-    }
-
-    .menu__header{
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-    }
-
+ 
     .logo{
        text-align: center;
        
@@ -391,21 +375,17 @@ footer{
     .main__box_one{
         grid-template-columns: 1fr;
         justify-items: center;
-    }
-    
-    .weare__text{
-        display: ;
+        
     }
 
     .white__box, h2, p{
-        text-align: center;
+        text-align: center; 
     }
 
     hr.separacao_dois,.separacao_um{
         align-self: center;
-        right: 1px;
+        right: 1px;  
     }
-
 
     .box_two{
         margin-top: 40px;
@@ -419,15 +399,12 @@ footer{
     .gallery__container{
         justify-content: center;
         margin: 30px 0px 5px;
-      
-        
     }
 
     .gallery__container div{
         margin-top: 0px;
         height: 300px;
         width: 300px;
-    
     }
 
     .egg_box  {
@@ -445,9 +422,16 @@ footer{
 
     .main__box_one div{
         width: 390px;
-        height: 390px;
-       
+        margin-bottom: 0px;
+    }
 
+    .white__box .main__box_p{
+      max-width: 330px;
+      align-self: center; 
+    }
+
+    .end_footer{
+        font-size: smaller;
     }
 
 }
