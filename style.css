@@ -130,8 +130,8 @@ a.contact__efect{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    gap: 30px;
-    height: 450px;
+    gap: 40px;
+    height: 400px;
 }
 
 .white__box p{
@@ -445,8 +445,8 @@ footer{
     .main__box_one div{
         width: 390px;
         height: 390px;
-       
-
     }
-
+    .white__box p{
+        margin-left: 10px;
+        margin-right: 10px;
 }
