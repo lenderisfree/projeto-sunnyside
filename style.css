@@ -446,7 +446,6 @@ footer{
         width: 390px;
         height: 390px;
     }
-    .white__box p{
-        margin-left: 10px;
-        margin-right: 10px;
+    .white__box h2 p{
+        margin: 10px;
 }
