@@ -130,9 +130,8 @@ a.contact__efect{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    gap: 40px;
-    width: 400px;
-    height: 100%;
+    gap: 30px;
+    height: 450px;
 }
 
 .white__box p{
@@ -392,10 +391,6 @@ footer{
         grid-template-columns: 1fr;
         justify-items: center;
       
-    }
-    
-    .weare__text{
-        display: ;
     }
 
     .white__box, h2, p{
