@@ -394,6 +394,7 @@ footer{
 
     .white__box, h2, p{
         text-align: center;
+        max-width: 350px;
     }
 
     hr.separacao_dois,.separacao_um{
