@@ -427,9 +427,10 @@ footer{
         margin-bottom: 0px;
     }
 
-    .white__box .main__box_p{
+    .white__box,.main__box_p,.main__box__text {
       max-width: 330px;
       align-self: center; 
+      justify-content: center;
     }
 
     .end_footer{
