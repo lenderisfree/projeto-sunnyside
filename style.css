@@ -75,10 +75,6 @@ header{
     color: black;
 }
 
-.navbar-toggler-icon{
-    filter: grayscale(100%);
-}
-
 a.contact__efect{
     background-color: #fff;
     color: black;
@@ -132,6 +128,7 @@ a.contact__efect{
     justify-content: flex-end;
     gap: 40px;
     height: 400px;
+    max-width: 400px;
 }
 
 .white__box p{
@@ -170,7 +167,7 @@ a.contact__efect{
     width: 26%;
     position: relative;
     margin-top: 0em;
-    bottom: 75px;
+    bottom: 60px;
     right: 10px;
     border: 4px solid rgba(255, 217, 0, 0.289);
     border-color:rgba(255, 217, 0, 0.289) ;
@@ -181,7 +178,7 @@ a.contact__efect{
     width: 26%;
     position: relative;
     margin-top: 0em;
-    bottom: 75px;
+    bottom: 60px;
     right: 10px;
     border: 4px solid #ff736458;
     border-color:#ff736458;
@@ -440,5 +437,8 @@ footer{
     }
     .white__box h2 p{
         margin: 10px;
+    }
+    hr{
+        display: none;
     }
 }
