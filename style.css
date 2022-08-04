@@ -37,7 +37,7 @@ header{
 
 .navbar-nav{
     align-items: center;
-    gap: 10px;
+    gap: 50px;
 }
 
 #navbarNav{
@@ -368,6 +368,10 @@ footer{
     .logo{
        text-align: center;
        
+    }
+
+    .navbar-nav{
+        gap: 10px;
     }
 
     .main__box_one{
