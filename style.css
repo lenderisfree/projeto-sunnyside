@@ -436,9 +436,13 @@ footer{
     .end_footer{
         font-size: smaller;
     }
-    .white__box h2 p{
-        margin: 10px;
+   
+
+   .main__box__text{
+         font-size: x-large;
+        
     }
+
     hr{
         display: none;
     }
