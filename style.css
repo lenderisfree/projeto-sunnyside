@@ -109,7 +109,7 @@ a.contact__efect{
     justify-content: space-between; 
 }
 
-.main__box1 img{
+.main__box_one img{
     width: 100%;
     height: 450px;
     object-fit: cover;
@@ -375,6 +375,10 @@ footer{
         grid-template-columns: 1fr;
         justify-items: center;
         
+    }
+
+    .main__box__text{
+        font-width: medium ;
     }
 
     .white__box, h2, p{
