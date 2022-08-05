@@ -101,18 +101,16 @@ a.contact__efect{
     text-align: center; 
 }
 
+.main__box_one a p{
+    text-decoration: none;
+}
+
 .main__box_one{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 450px;
     align-items: center;
     justify-content: space-between; 
-}
-
-.main__box_one img{
-    width: 100%;
-    height: 450px;
-    object-fit: cover;
 }
 
 .main__box__text{
@@ -318,13 +316,14 @@ footer{
     display: flex !important;
     flex-direction: column;
     gap: 30px;
-    justify-content: center;
     align-items: center;
     margin-top: -4px;
 }
 
 .logo_footer h1{
     color:rgb(101, 98, 98);
+    margin: 20px 0px;
+    
 }
 
 .navbar_footer{
@@ -364,6 +363,7 @@ footer{
  
     .logo{
        text-align: center;
+       margin: 20px 0px;
        
     }
 
@@ -378,7 +378,8 @@ footer{
     }
 
     .main__box__text{
-        font-width: medium ;
+        font-weight: medium ;
+
     }
 
     .white__box, h2, p{
@@ -443,8 +444,7 @@ footer{
    
 
    .main__box__text{
-         font-size: x-large;
-        
+         font-size: x-large;  
     }
 
     hr{
